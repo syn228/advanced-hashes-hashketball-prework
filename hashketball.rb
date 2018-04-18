@@ -163,7 +163,7 @@ end
 def team_names
   game_hash.each do |location, team_data|
     team_data.each do |something|
-      return something[1]
+      return something[1].split(" ")
     end
   end
 end
