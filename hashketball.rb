@@ -162,9 +162,9 @@ end
 
 def team_names
   game_hash.each do |location, team_data|
-    team_data[:team_name].split.each do |team_name, name_of_team|
+    team_data[:team_name].split(" ").each do |team_name|
       binding.pry
-      return name_of_team
+      return team_name
     end
   end
 end
