@@ -196,8 +196,9 @@ def big_shoe_rebounds
   game_hash.each do |location, team_data|
     team_data.each do |team_name, actual_name|
       if team_name == :players
-        actual_name.each 
-
+        actual_name.each do |name, stats|
+          binding.pry
+      end
     end
   end
 end
