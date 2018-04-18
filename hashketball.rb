@@ -181,7 +181,7 @@ def player_numbers(team)
 end
 
 def player_stats(player)
-game_hash.each do |location, team_data|
+  game_hash.each do |location, team_data|
     team_data[:players].each do |name, player_attributes|
       if name == player 
         return player_attributes  
@@ -191,5 +191,6 @@ game_hash.each do |location, team_data|
 end
 
 def big_shoe_rebounds
+  game_hash.each do |location, team_data|
   
 end
