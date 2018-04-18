@@ -169,7 +169,7 @@ def team_names
 end
 
 def player_numbers(team)
-  jerseys = []
+  jerseys = ""
   game_hash.each do |location, team_data|
     team_data.each do |team_name, name_of_team|
       if name_of_team == team
@@ -178,7 +178,7 @@ def player_numbers(team)
       end
     end
   end
-  jerseys
+  jerseys.split(",")
 end
 
 
