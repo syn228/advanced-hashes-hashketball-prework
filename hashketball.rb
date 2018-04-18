@@ -172,7 +172,7 @@ def player_numbers(team)
   jerseys = []
   game_hash.each do |location, team_data|
     team_data.each do |team_name, name_of_team|
-      
+      binding.pry
       if name_of_team == team
         jerseys << team_data[:number].split(",")
       end
