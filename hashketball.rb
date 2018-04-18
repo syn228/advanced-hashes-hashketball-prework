@@ -180,5 +180,7 @@ def player_numbers(team)
   jerseys
 end
 
-
+def player_stats
+  
+end
 
