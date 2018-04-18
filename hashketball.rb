@@ -191,6 +191,7 @@ def player_stats(player)
 end
 
 def big_shoe_rebounds
+  biggest_shoe = nil
   game_hash.each do |location, team_data|
   
 end
