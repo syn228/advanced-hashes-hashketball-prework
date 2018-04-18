@@ -178,7 +178,7 @@ def player_numbers(team)
       end
     end
   end
-  jerseys.split(",")
+  jerseys
 end
 
 
