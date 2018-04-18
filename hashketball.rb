@@ -199,6 +199,7 @@ def big_shoe_rebounds
         actual_name.each do |name, stats|
           #stats.each do |stat_name, stat_info|
             if stats == :shoe
+              if biggest_shoe == nil
         end
       end
     end
