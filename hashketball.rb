@@ -165,7 +165,7 @@ def team_names
   game_hash.each do |location, team_data|
     team_data[:team_name].split(" ").each do |something|
       binding.pry
-    team_array
+    end
   end
 end
 
