@@ -165,7 +165,7 @@ def team_names
     location.each do |something, nothing|
       binding.pry
       
-    
+    end
   end
 end
 
