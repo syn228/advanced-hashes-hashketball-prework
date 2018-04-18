@@ -165,7 +165,7 @@ def team_names
     return team_data[:team_name].split(" ")
       
       
-    end
+    
   end
 end
 
