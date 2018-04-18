@@ -161,11 +161,9 @@ def team_colors(team)
 end
 
 def team_names
-  team_array = []
   game_hash.each do |location, team_data|
     team_data.each do |something|
-      team_array << something[1]
-    team_array
+      return something
     end
   end
 end
