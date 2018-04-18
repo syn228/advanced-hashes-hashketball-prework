@@ -174,6 +174,7 @@ def player_numbers(team)
     team_data.each do |team_name, name_of_team|
       if name_of_team == team
         jerseys << team_data[:players][:number]
+        binding.pry
       end
     end
   end
