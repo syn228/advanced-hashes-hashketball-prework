@@ -162,11 +162,11 @@ end
 
 def team_names
   game_hash.each do |location, team_data|
-    return team_data[:team_name].split(" ")
+    puts team_data[:team_name]
   end
 end
 
-team_names
+
 
 
 
