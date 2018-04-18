@@ -198,6 +198,7 @@ def big_shoe_rebounds
       if team_name == :players
         actual_name.each do |name, stats|
           binding.pry
+        end
       end
     end
   end
