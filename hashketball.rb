@@ -164,9 +164,8 @@ def team_names
   team_array = []
   game_hash.each do |location, team_data|
     team_data.each do |something|
-    binding.pry
-      team_array << something
-    
+      team_array << something[1]
+    team_array
     end
   end
 end
