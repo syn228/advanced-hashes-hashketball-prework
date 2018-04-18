@@ -171,15 +171,13 @@ end
 def player_numbers(team)
   jerseys = []
   game_hash.each do |location, team_data|
-      team_data.each do |team_name, name_of_team|
-        if name_of_team = team
+      if team_data[:team_name] = team
         team_data[:players].each do |player, stats|
         jerseys << stats[:number]
-        end
       end
     end
   end
-  jerseys
+  return jerseys
 end
 
 
