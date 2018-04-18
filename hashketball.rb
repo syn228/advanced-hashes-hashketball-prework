@@ -163,9 +163,10 @@ end
 def team_names
   team_array = []
   game_hash.each do |location, team_data|
-    team_data[:team_name].split(" ").each do |something|
-      team_array << something[:team_name]
-      team_array
+    team_data.each do |something|
+    binding.pry
+      team_array << something
+    
     end
   end
 end
