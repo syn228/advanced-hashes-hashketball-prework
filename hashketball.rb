@@ -194,6 +194,7 @@ def big_shoe_rebounds
   biggest_shoe = nil
   biggest_shoe_player_rebounds = nil
   game_hash.each do |location, team_data|
-    team.data.each do |
+    team.data.each do |idk, something|
+      binding.pry
   
 end
