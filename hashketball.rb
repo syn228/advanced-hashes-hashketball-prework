@@ -168,7 +168,8 @@ def team_names
   teams
 end
 
-
+team_names
+binding.pry
 
 
 
