@@ -165,11 +165,9 @@ def team_names
   game_hash.each do |location, team_data|
     teams << team_data[:team_name].split(",")
   end
-  teams[0..1]
+  teams
 end
 
-team_names
-binding.pry
 
 
 
