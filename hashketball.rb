@@ -175,6 +175,7 @@ def player_numbers(team)
         team_data.each do |player, stats|
         jerseys << stats[:number]
       binding.pry
+      end
     end
   end
   jerseys
