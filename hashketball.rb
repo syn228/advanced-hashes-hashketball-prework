@@ -204,5 +204,6 @@ def big_shoe_rebounds
       end
     end
   end
-  shoes.each {|player, size| biggest_shoe = player if size == shoes.values.max
+  shoes.each {|player, size| biggest_shoe = player if size == shoes.values.max}
+  biggest_shoe
 end
