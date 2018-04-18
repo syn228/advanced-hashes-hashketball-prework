@@ -197,7 +197,7 @@ def big_shoe_rebounds
     team_data.each do |team_name, actual_name|
       if team_name == :players
         actual_name.each do |name, stats|
-          #stats.each do |stat_name, stat_info|
+          stats.each do |stat_name, stat_info|
             if stats == :shoe
               if biggest_shoe == nil
         end
