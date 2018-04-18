@@ -180,7 +180,15 @@ def player_numbers(team)
   jerseys
 end
 
-def player_stats
-  
+def player_stats(name)
+  st = {}
+  game_hash.each do |location, team_data|
+    if team_data[:players] == name
+      team_data[:players].each do |player, stats|
+        st << stats
+      end
+    end
+  end
+  st
 end
 
